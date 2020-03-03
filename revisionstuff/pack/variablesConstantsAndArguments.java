@@ -27,7 +27,9 @@ public class variablesConstantsAndArguments
 		/**
 		So what we tried was making int variables, what is int?
 		
+		
 		int is a DATA TYPE
+		
 		
 		this is what we declare a variable with, variables need a data type assigned to them
 		int is not the only data type, duh (and I'm just gonna rip values out off w3schools, because it's fairly accurate):
@@ -71,8 +73,10 @@ public class variablesConstantsAndArguments
 		//We can check the value with System.out...
 		System.out.println(yikes);
 		
+		
 		float decimals = 5.5f;
 		//Example of a float variable, the 'f' at the end of the number is necessity otherwise it will not work.
+		
 		
 		boolean yesno = true;
 		boolean maybenot = false;
@@ -80,6 +84,8 @@ public class variablesConstantsAndArguments
 		
 		
 			
+		
+		
 		//***********************************************************************//
 		//Section 2 - Variable clauses
 		
@@ -91,8 +97,40 @@ public class variablesConstantsAndArguments
 		//This is similar to high school algebra, you can see it as number3 = 10 + 20, number3 equates to 30 of course.
 		
 		
+		int number4 = number1 * number2; //Multiply
+		int number5 = number2/number1; //Division
+		int number6 = number2 - number1; //Subtraction
+		int number7 = number2 % number1; //Modulo, division, but you are only counting the remainders.
+		//Few exmaples of other basic mathematical operations
+		
+		//Nothing stops you from chaining more variables together them together
+		int newNumber1 = 1;
+		int newNumber2 = 2;
+		int newNumber3 = 3;
+		int newNumber4 = newNumber1 + newNumber2 + newNumber3;
+		//newNumber4 should equal to 6
+		
+		//Note that more advanced mathamatical operations, but those requires additional import clauses if you want to 'em.
+		
+		//You can also "add string" variables
+		String number10 = "10";
+		String number20 = "20";
+		String showAnswer1 = number10 + number20;
+		//What I mean by add? I meant CONCATENATE.
+		//it would show up as 1020, NOT 30. Because string variables are letters, and you are merely joining them together.
+			//Don't believe me? See for yourself, have java print out the variable 'showAnswer1'
 		
 		
+		
+		System.out.println(number10 + (newNumber1+newNumber2)); //Remember the GOOD OLD BIDMAS? that's right, you'll need that GOOD STUFF
+		
+		
+		
+		
+		//***********************************************************************//
+		//Section 3 - Arguments Clauses
+		
+		//
 		
 	}
 
