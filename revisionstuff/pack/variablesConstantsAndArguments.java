@@ -10,6 +10,10 @@ public class variablesConstantsAndArguments
 		System.out.println("Hello World");
 		//This will be your bread and butter command for your beginnings, it will just display whats inside. This will be IMPORTANT from now on.
 		
+		System.out.println("damn straight" + " joemama"); //The '+'symbol here puts things together, but can also add in some circumstances.
+		
+		
+		
 		//Java is statically typed, meaning variables must be defined and declared before being assigned
 		//For example
 		int yeet = 6;	//Here is variable 'yeet'
@@ -82,7 +86,9 @@ public class variablesConstantsAndArguments
 		boolean maybenot = false;
 		//Examples of initialising boolean variables.
 		
-		
+		//As an added note, you can add "context" to variables by how you display it
+		System.out.println("The amount of people died from coronavirus since feburary: " + yeet);
+			//This will show the string sentence, but will show an integer alongside, this is an example, not a particularly a true statement, but nonetheless
 			
 		
 		
@@ -123,14 +129,15 @@ public class variablesConstantsAndArguments
 		
 		
 		System.out.println(number10 + (newNumber1+newNumber2)); //Remember the GOOD OLD BIDMAS? that's right, you'll need that GOOD STUFF
+		/**
+		B - BRACKETS
+		I - INDICIES (other things like powers and square roots, anything that isn't on the basic operators)
+		D - DIVISION
+		M - MULTIPLICATION
+		A - ADDITION
+		S - SUBTRACTION
+		*/
 		
-		
-		
-		
-		//***********************************************************************//
-		//Section 3 - Arguments Clauses
-		
-		//
 		
 	}
 
